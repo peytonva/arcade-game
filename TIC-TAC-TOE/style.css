@@ -6,7 +6,7 @@ body{
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.43410852713178294) 50%, rgba(252,176,69,1) 100%);
 }
 
-/* Tic-Tac-Toe Header*/
+/* Tic-Tac-Toe Header */
 h1{
     text-align: center;
     font-family: 'Pacifico', cursive;
@@ -17,13 +17,13 @@ h1{
     letter-spacing: 1px;  
 }
 
-/* Player That Is Up*/
+/* Player That Is Up */
 h2{
     text-align: center;
     margin-top: 20px;
 }
 
-/* Player names and scores*/
+/* Player names and scores */
 h4{
     text-align: center;
     color: white;
@@ -69,7 +69,7 @@ h4{
     margin-bottom: 0px;
 }
 
-/* Congrats Fade*/
+/* Congrats Fade */
 .congrats, .good-job{
     text-align: center;
     margin-left: 40%;
@@ -81,7 +81,7 @@ h4{
     margin-top: 0px;
 }
 
-/*Board Styling*/
+/* Board Styling */
 
 .board{
     height: 450px;
@@ -193,7 +193,7 @@ h4{
     padding: 20px;
 }
 
-/*Backdrop*/
+/* Backdrop */
 #overlay{
     position: fixed;
     opacity: 0;
@@ -211,14 +211,14 @@ h4{
     pointer-events: all;
 }
 
-/* Player 1 & Player 2 in pop up*/
+/* Player 1 & Player 2 in pop up */
 label{
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: white;
 }
 
-/* Pop Up input forms*/
+/* Pop Up input forms */
 input{
     border: 1px solid white;
     background-color: white;
@@ -228,18 +228,18 @@ input{
     border-radius: 10px;
 }
 
-/* Aligning inputs due to text differences*/
+/* Aligning inputs due to text differences */
 #player-2-input{
     margin-left:2px
 }
 
-/* Gives input focus a rounded look to match input form border-radius*/
+/* Gives input focus a rounded look to match input form border-radius */
 #player-1-input:focus, #player-2-input:focus{
     outline: none;
     box-shadow: 0 0 0 2pt rgba(252,176,69)
 }
 
-/*Single player mode button*/
+/* Single player mode button */
 .bot-mode{
     border: 1px solid white;
     background-color: white;
@@ -253,7 +253,7 @@ input{
     margin-top: 8px;
 }
 
-/*Reset Board button*/
+/* Reset Board button */
 .restart{
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
@@ -277,7 +277,7 @@ input{
     margin-bottom: 20px;
 }
 
-/*Player options button*/
+/* Player options button*/
 #input-names{
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
@@ -288,7 +288,7 @@ input{
     margin-bottom: 20px;
 }
 
-/* changes outline to match border-radius */
+/* Changes outline to match border-radius */
 #input-names:focus, .reset-score:focus, .restart:focus{
     outline: none;
     box-shadow: 0 0 0 1pt white;
